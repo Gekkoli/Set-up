@@ -1,4 +1,4 @@
-## ESE MSc latop setup guide
+## latop setup guide
 This repository contains instructions for setting up your laptops for use on ESE masters programs. This configuration contains all required software for the Modern Programming Methods/Numerical Programming in Python modules and is the base configuration for any future modules. Setup instructions for Windows, MacOS and Ubuntu (Linux) can be accessed by clicking on the appropriate logo below.
 
 <table>

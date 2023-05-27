@@ -73,10 +73,7 @@ When in the desired location ACSE students should run:
 ```
 git clone https://github.com/ese-msc-2022/modern-programming-methods.git
 ```
-EDSML and GEMS students:
-```
-git clone https://github.com/ese-msc-2022/numerical-programming-in-python.git
-```
+
 Note that when prompted to enter your username and password, the password is **not** your GitHub account password but a 'personal access token' created with suitable permissions. Instructions for creating personal access token's can be found [here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
 This repository contains an `environment.yml` file for building the `conda` environment. Navigate into the repository (e.g. `cd modern-programming-methods`). ACSE students should then run
@@ -85,12 +82,7 @@ conda init zsh
 conda env create -f environment.yml
 conda activate ese-msc
 ```
-ESML and GEMS students should run
-```
-conda init zsh
-conda env create -f environment.yml
-conda activate npp
-```
+
 You should now see the environment name displayed on the left hand side of the terminal, e.g.
 
 ![](images/mac/mac_term.png)
